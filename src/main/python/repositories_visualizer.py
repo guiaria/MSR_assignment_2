@@ -1,5 +1,7 @@
 import plotly.express as px
 import pyspark.sql.functions as F
+import plotly.io as pio
+import os
 from pyspark import SparkContext
 from pyspark.sql.session import SparkSession
 
@@ -126,6 +128,10 @@ def visualize(repository: str, abstraction: str, characterization_type: str, app
                             "org.hamcrest:hamcrest-all": "greenyellow", "matching": "greenyellow",
                             "org.apache.lucene:lucene-core": "orchid", "Full-Text Indexing Libraries": "orchid", "lucene": "orchid",
                             "org.apache.lucene:lucene-analyzers-common": "aqua"})
+    
+    if not os.path.exists(u.visualization_dir):
+        os.makedirs(u.visualization_dir, exist_ok=False)
+
     fig.write_html(u.visualization_dir + u.visualization_file + repository + "_" + abstraction +
                    "_" + characterization_type + getDependenceString(apply_dependence) + ".html", auto_open=True)
     fig.write_image(u.visualization_dir + u.visualization_file + repository + "_" + abstraction +
