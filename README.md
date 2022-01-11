@@ -3,7 +3,6 @@ This repository contains the code underlying the master thesis "Applying API Cat
 
 This readme was created to help the MSR 2021/22 course to understand the code structure easier. 
 
-// Fork from 
 
 # Code structure
 The code consists of Java and Python code. Java is used for data collection and parsing, Python is used for analysis and visualization (because of PySpark and Plotly). All Java code is executed from the `Application.java` file. There are four Python files. Three of them are independent of each other and all have an own main function for the execution of the code. The last file `utils.py` is just a utils file.
@@ -45,4 +44,4 @@ Characterizes abstractions of repositories and visualizes the repositories.
 # Notes
 You need to create a personal access token in your GitHub account and then replace the `USERNAME_AND_TOKEN` in `RepositoriesPicker.java` with your username and token.
 
-This repositories fork from https://github.com/gorjatschev/applying-apis for MSR assignment
+This repositories fork from https://github.com/gorjatschev/applying-apis for MSR 2021/22 Coursework
