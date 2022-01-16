@@ -34,6 +34,9 @@ Operating system: Linux- Ubuntu 16.04 or higher, or Windows 7 to 10, with at lea
 ## Software requirements
 * Java 11 (Maven project)
 * Python 3.9.6 (plotly==5.1.0, pyspark==3.1.2)
+* plotly python module (5.5.0)
+* pyspark python module (3.2.0)
+* kaleido python module (for image export)
 
 ## Validation
 Any sort of advice on how to check that the output of your process makes sense.
