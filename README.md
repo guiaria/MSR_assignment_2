@@ -23,12 +23,13 @@ CSV file on the project’s repo which contains a list of APIs and corresponding
 # Finding of replication
 
 ## Process delta
-How does your process differ from what’s described in the thesis or implemented in its repo? (Why?)
+
+We believe that the process to create visualization is identical to the thesis since we both use external library (plotly) to create the Treemaps, also we use same preprocessed data.
 
 ## Output delta
 
 The output data is identical only different in the figure structure which it is irrelevant.
-How does your output differ …? (What’s the signiffcance of any differences observed?)
+
 
 # Implementation of replication
 
@@ -47,15 +48,13 @@ Operating system: Linux- Ubuntu 16.04 or higher, or Windows 7 to 10, with at lea
 ## Validation
 Since we could not check the runtime data ( data when code is running ) with the thesis itself, we have to check it by hand by run though each of the visualization figures
 
-Any sort of advice on how to check that the output of your process makes sense.
 
 ## Data
 The input file is a analyzed data from the analyze part of the thesis which contains following data.
  > filePath, packageName, className, methodName, line, column, javaParserTypeOfElement, usedClassOfElement, isAPIClass, api, mcrCategories, mcrTags
  
-While the output is the treemap visulization 
+While the output is the Treemaps visulization figures
 
-What input, output, or temporary data is assumed or produced by your process?
 
 
 
