@@ -15,6 +15,7 @@ Reproduction of the visualization stage of the empirical study,  in which a repr
 ## Input data
 The CSV file, which has been pre-processed by previous procedure (analyze the data), contains a list of APIs and corresponding APIs categories and the following data
  > filePath, packageName, className, methodName, line, column, javaParserTypeOfElement, usedClassOfElement, isAPIClass, api, mcrCategories, mcrTags
+ 
 The original CSV file can be found in the project’s [repo](https://github.com/gorjatschev/applying-apis/tree/main/output).
 
 
@@ -27,7 +28,7 @@ The original CSV file can be found in the project’s [repo](https://github.com/
 
 ## Process delta
 
-We believe that the process to create visualization is identical to the thesis since we both use external library (plotly) to create the Treemaps, also we use same preprocessed data.
+We believe that the process to create visualization is identical to the thesis since we reiled on the external library (plotly) to create the visualization. In addition, the data we used is identical to the thesis itself, hence the process should not be distinct.
 
 ## Output delta
 
