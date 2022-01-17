@@ -41,6 +41,11 @@ We expect to be able to analyze a significant delta when processing the data gen
 
 This replication uses the code from [Gorjatschev21 repository](https://github.com/gorjatschev/applying-apis) as a baseline. Then we removed unnecessary files used for other parts different from visualization and restructured the project. After that, we installed all software requirements and we adjusted the application configuration to run according to requirements.
 
+To generate the visualizations:
+```
+python process/repositories_visualizer.py
+```
+
 ## Hardware requirements
 * Operating system: Linux (recommended Ubuntu 16.04 or higher), MacOS, or Windows 7 to 10.
 * Memory: At least 4GB RAM (8GB preferable)
