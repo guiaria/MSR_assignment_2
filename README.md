@@ -26,6 +26,8 @@ CSV file on the project’s repo which contains a list of APIs and corresponding
 How does your process differ from what’s described in the thesis or implemented in its repo? (Why?)
 
 ## Output delta
+
+The output data is identical only different in the figure structure which it is irrelevant.
 How does your output differ …? (What’s the signiffcance of any differences observed?)
 
 # Implementation of replication
