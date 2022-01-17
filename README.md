@@ -16,7 +16,7 @@ Reproduction of the visualization stage of the empirical study,  in which a repr
 The CSV file, which has been pre-processed by previous procedure (analyze the data), contains a list of APIs and corresponding APIs categories and the following data
  > filePath, packageName, className, methodName, line, column, javaParserTypeOfElement, usedClassOfElement, isAPIClass, api, mcrCategories, mcrTags
  
-The original CSV file can be found in the project’s [repo](https://github.com/gorjatschev/applying-apis/tree/main/output).
+The original CSV file can be found in the project’s [repo](https://github.com/gorjatschev/applying-apis/tree/main/output) which contains the same data as the file used for this replication.
 
 
 
@@ -28,7 +28,7 @@ The original CSV file can be found in the project’s [repo](https://github.com/
 
 ## Process delta
 
-We believe that the process to create visualization is identical to the thesis since we reiled on the external library (plotly) to create the visualization. In addition, the data we used is identical to the thesis itself, hence the process should not be distinct.
+We believe that the process to create visualization is identical to the thesis since we relied on the external library (plotly) to create the visualization. In addition, the data we used is identical to the thesis itself, hence the process should not be distinct.
 
 ## Output delta
 
@@ -56,7 +56,7 @@ python process/repositories_visualizer.py
 * kaleido (python module for image export)
 
 ## Validation
-By comparing the visualization results with the input data 
+By comparing the visualization results with the input data it can be noticed a reduction in complexity to interpret the hierarchy of data, particularly the dependence relationship between the APIs.
 As for the execution of the code, since we could not compare the runtime data ( data when code is running ) with the thesis itself, we had to check it by hand by going through each of the visualization figures and compare the final results.
 
 
