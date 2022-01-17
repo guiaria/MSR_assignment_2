@@ -13,7 +13,10 @@ Team: Mike
 Reproduction of the visualization stage of the empirical study,  in which a representation of the applied API categorization is generated using treemaps for better understanding of the results.
 
 ## Input data
-CSV file on the project’s repo which contains a list of APIs and corresponding APIs categories: (https://github.com/gorjatschev/applying-apis/tree/main/output)
+The CSV file, which has been pre-processed by previous procedure (analyze the data), contains a list of APIs and corresponding APIs categories and the following data
+ > filePath, packageName, className, methodName, line, column, javaParserTypeOfElement, usedClassOfElement, isAPIClass, api, mcrCategories, mcrTags
+The original CSV file can be found in the project’s [repo](https://github.com/gorjatschev/applying-apis/tree/main/output).
+
 
 
 ## Output data
@@ -52,8 +55,8 @@ As for the execution of the code, since we could not compare the runtime data ( 
 
 
 ## Data
-The input file is a analyzed data from the analyze part of the thesis which contains following data.
- > filePath, packageName, className, methodName, line, column, javaParserTypeOfElement, usedClassOfElement, isAPIClass, api, mcrCategories, mcrTags
+The input file is a analyzed data from the analyze part of the thesis, which contains the identical column as mention in [input data](#input-data)
+
  
 While the output is the Treemaps visulization figures in the form of HTML files and PDF files, each one of them generated for a particular visualization.
 
